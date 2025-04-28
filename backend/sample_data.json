@@ -1,0 +1,31 @@
+{
+  "daily_reports": [
+    {
+      "empId": "FST01023",
+      "empName": "Kamini",
+      "date": "2024-01-02",
+      "section": "Full Day",
+      "hours": "7:07",
+      "projectName": "Marketing",
+      "work": "Collected pack industry data"
+    },
+    {
+      "empId": "FST01024",
+      "empName": "Sham R",
+      "date": "2024-01-02",
+      "section": "Full Day",
+      "hours": "8:00",
+      "projectName": "TERRA Tech",
+      "work": "API Development"
+    },
+    {
+      "empId": "FST01023",
+      "empName": "Kamini",
+      "date": "2024-01-03",
+      "section": "Full Day",
+      "hours": "6:45",
+      "projectName": "Marketing",
+      "work": "Market research and analysis"
+    }
+  ]
+}

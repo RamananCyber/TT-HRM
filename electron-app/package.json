@@ -1,0 +1,37 @@
+{
+  "name": "tailortrix",
+  "version": "1.0.0",
+  "description": "This is a CRM app for tailortrix",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+   
+    "node-fetch": "^2.7.0",
+    "node-location": "^1.0.1"
+  },
+  "permissions": {
+    "geolocation": true
+  },
+  "build": {
+    "appId": "com.tailortrix.crm",
+    "productName": "TailorTrix",
+    "win": {
+      "icon": "assets/blue-512x512.png"
+    },
+    "mac": {
+      "icon": "assets/blue-64X64.ico"
+    },
+    "linux": {
+      "icon": "assets/blue-64X64.ico"
+    }
+  },
+  "devDependencies": {
+    "electron-builder": "^24.6.4",
+    "electron": "^35.0.0" 
+  }
+}

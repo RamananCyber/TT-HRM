@@ -1,0 +1,15 @@
+<!-- templates/postal_code.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Postal Code Finder</title>
+</head>
+<body>
+    <h1>Postal Code Finder</h1>
+    {% if postal_code %}
+    <p>The postal code for the given location is: {{ postal_code }}</p>
+    {% else %}
+    <p>Could not find a postal code for the given location.</p>
+    {% endif %}
+</body>
+</html>

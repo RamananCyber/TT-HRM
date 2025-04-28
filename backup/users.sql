@@ -1,0 +1,11 @@
+insert_statement
+"INSERT INTO users (UserID, UserName, Email, Password, EmployeeName, Photo, PositionID, RoleID, EmployeeID) VALUES ('1', 'john.doe', 'john@company.com', 'pass123', 'John Doe', '', '1', '3', 'TAI001');"
+"INSERT INTO users (UserID, UserName, Email, Password, EmployeeName, Photo, PositionID, RoleID, EmployeeID) VALUES ('2', 'jane.smith', 'jane@company.com', 'pass456', 'Jane Smith', NULL, '3', '2', 'TAI002');"
+"INSERT INTO users (UserID, UserName, Email, Password, EmployeeName, Photo, PositionID, RoleID, EmployeeID) VALUES ('3', 'mike.ross', 'mike@company.com', 'pass789', 'Mike Ross', NULL, '2', '3', 'TAI003');"
+"INSERT INTO users (UserID, UserName, Email, Password, EmployeeName, Photo, PositionID, RoleID, EmployeeID) VALUES ('4', 'sara.wilson', 'sara@company.com', 'sara123', 'Sara Wilson', NULL, '4', '3', 'TAI004');"
+"INSERT INTO users (UserID, UserName, Email, Password, EmployeeName, Photo, PositionID, RoleID, EmployeeID) VALUES ('5', 'adam.jones', 'adam@company.com', 'adam456', 'Adam Jones', NULL, '5', '4', 'TAI005');"
+"INSERT INTO users (UserID, UserName, Email, Password, EmployeeName, Photo, PositionID, RoleID, EmployeeID) VALUES ('6', 'lisa.ray', 'lisa@company.com', 'lisa789', 'Lisa Ray', NULL, '6', '2', 'TAI006');"
+"INSERT INTO users (UserID, UserName, Email, Password, EmployeeName, Photo, PositionID, RoleID, EmployeeID) VALUES ('7', 'tom.hanks', 'tom@company.com', 'tom123', 'Tom Hanks', NULL, '7', '4', 'TAI007');"
+"INSERT INTO users (UserID, UserName, Email, Password, EmployeeName, Photo, PositionID, RoleID, EmployeeID) VALUES ('8', 'emma.watson', 'emma@company.com', 'emma456', 'Emma Watson', NULL, '8', '2', 'TAI008');"
+"INSERT INTO users (UserID, UserName, Email, Password, EmployeeName, Photo, PositionID, RoleID, EmployeeID) VALUES ('9', 'bruce.wayne', 'bruce@company.com', 'bruce789', 'Bruce Wayne', NULL, '9', '1', 'TAI009');"
+"INSERT INTO users (UserID, UserName, Email, Password, EmployeeName, Photo, PositionID, RoleID, EmployeeID) VALUES ('10', 'clark.kent', 'clark@company.com', 'clark123', 'Clark Kent', NULL, '10', '1', 'TAI010');"

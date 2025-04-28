@@ -1,0 +1,132 @@
+/* Adjust table layout for smaller screens */
+@media (max-width: 768px) { /* Example breakpoint for tablets and below */
+  .task-table-container {
+    overflow-x: auto; /* Enable horizontal scrolling for the table */
+  }
+
+  .task-table-container table {
+    min-width: 800px; /* Or a suitable minimum width to prevent content collapse */
+  }
+
+  .ctable-cell-description {
+    max-width: 150px; /* Adjust max-width for description column on smaller screens */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .ctable-cell-actions {
+    width: 100px; /* Adjust width for actions column if needed */
+  }
+
+  /* Add more specific adjustments if needed for other columns */
+}
+
+/* Optional: General table styling enhancements (adjust as needed) */
+.task-table-container .ctable {
+  border-collapse: collapse; /* Ensure proper cell border handling */
+}
+
+.task-table-container .ctable-header-cell,
+.task-table-container .ctable-data-cell {
+  padding: 0.5rem; /* Adjust cell padding for spacing */
+  white-space: nowrap; /* Prevent text wrapping in cells (adjust if wrapping is desired) */
+  vertical-align: middle; /* Vertically align cell content */
+}
+
+.task-table-container .ctable-header-cell {
+  background-color: #f8f9fa; /* Light background for header cells */
+  font-weight: bold;
+  border-bottom: 2px solid #dee2e6; /* Separator line for header */
+}
+
+.task-table-container .ctable-row:nth-child(even) {
+  background-color: #f2f2f2; /* Optional: Even row background color */
+}
+
+.sidebar-brand-full, .sidebar-brand-narrow {
+  border-radius: 1rem !important;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.sidebar-brand-full:hover, .sidebar-brand-narrow:hover {
+  border-radius: 0.5rem !important;
+}
+
+.widget-spacing {
+  margin-bottom: 1.5rem; /* Adjust as needed */
+}
+
+.dropdown-card {
+  min-width: 280px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.nav-group-items .nav-item .nav-link{
+  padding-left: 75px;
+}
+
+
+/* Notification Styles */
+.notification-dropdown {
+  min-width: 350px;
+  max-width: 400px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 0;
+}
+
+.notification-item {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.notification-item:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.notification-item.unread {
+  background-color: rgba(13, 110, 253, 0.04);
+}
+
+.notification-item.read {
+  opacity: 0.8;
+}
+
+.notification-message {
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.notification-time {
+  font-size: 0.75rem;
+}
+
+.empty-notifications {
+  padding: 1rem 1rem;
+  color: #6c757d;
+}
+
+.notification-badge {
+  font-size: 0.65rem;
+  padding: 0.25rem 0.4rem;
+}
+
+/* Pulse animation for unread notifications */
+.pulse-animation {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(220, 53, 69, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 5px rgba(220, 53, 69, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(220, 53, 69, 0);
+  }
+}
